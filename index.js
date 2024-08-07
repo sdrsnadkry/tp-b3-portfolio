@@ -160,7 +160,22 @@ function divUsingSwitch(num1, num2) {
   }
 }
 
-divUsingSwitch(100, 50);
+// divUsingSwitch(100, 50);
 // divideNumber(100, 2);
 // divideNumber(100, 5);
 // divideNumber(100, 50);
+
+function compareUsingSwitch(a, b) {
+  switch (a === b) {
+    case true:
+      console.log("Both are equal");
+      break;
+
+    default:
+      console.log("Both are not equal");
+      break;
+
+  }
+}
+
+compareUsingSwitch(1,"1")
