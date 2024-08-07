@@ -1,89 +1,166 @@
-//Data types
+// //Data types
 
-// 1. Number
+// // 1. Number
 
-//keywords
-// const
+// //keywords
+// // const
 
-// keyword variableName operator value
+// // keyword variableName operator value
 
-//const is always constant
-const a = 10;
+// let results = null;
 
-//re declare
-// const a = 20;
+// //const is always constant
+// const a = 10;
 
-// a = 20;
+// //re declare
+// // const a = 20;
 
-const b = 20;
+// // a = 20;
 
-const sum = a + b;
+// const b = 20;
 
-// console.log(a, b, sum);
+// const sum = a + b;
+// results = a + b;
 
-// let
+// // console.log(results);
 
-let x = 20;
-x = 40;
+// // console.log(a, b, sum);
 
-let y = 40;
+// // let
 
-// let y= 40;
-let sumXY = x + y;
-// console.log(sumXY);
+// let x = 20;
+// x = 40;
 
-// var
+// let y = 40;
 
-var a1 = 1;
+// // let y= 40;
+// let sumXY = x + y;
 
-a1 = 3;
+// results = y - x;
+// // console.log(results);
 
-var a2 = 2;
+// // var
 
-var a2 = 1000;
+// var a1 = 1;
 
-var sumA1A2 = a1 + a2;
+// a1 = 3;
 
-console.log(sumA1A2);
+// var a2 = 2;
 
-// odd even
+// var a2 = 1000;
 
-const reminder = a1 % 2;
+// var sumA1A2 = a1 + a2;
 
-// 2. String
+// // odd even
 
-const name1 = "John";
+// const reminder = a1 % 2;
 
-const name2 = "Alice";
+// // 2. String
 
-const nameSum = name1 + name2;
+// const name1 = "John";
 
-const random1 = 1;
+// const name2 = "Alice";
 
-const random2 = "1";
+// const nameSum = name1 + name2;
 
-const random3 = 3;
+// const random1 = 1;
 
-//type conversion
-// console.log(String(Number(random2)) + random3 + random1);
-// console.log(nameSum)
+// const random2 = "1";
 
-// 3. Boolean
+// const random3 = 3;
 
-const isMale = true;
+// //type conversion
+// // console.log(String(Number(random2)) + random3 + random1);
+// // console.log(nameSum)
 
-const value = null
+// // 3. Boolean
 
-console.log(typeof value)
+// const isMale = true;
 
+// const value = null;
 
-//falsy
-const apple = undefined
-const apple2 = null
+// //falsy
+// const apple = undefined;
+// const apple2 = null;
 
+// // 4. Object
 
+// // 5. Array
 
+// const aa1 = 1;
 
-// 4. Object
+// const aa2 = "1";
 
-// 5. Array
+// //Scope
+
+// //block scope
+// const isEqual = aa1 == aa2;
+
+// if (isEqual) {
+//   var aaaa = 1;
+
+//   // console.log(aaaa);
+// } else {
+//   // console.log(aaaa);
+
+//   console.log("Nos are not equal");
+// }
+
+// //global scope
+
+// if (true) {
+//   if (true) {
+//     if (true) {
+//       // console.log(aa1);
+//     } else {
+//     }
+//   } else {
+//   }
+// } else {
+// }
+
+// function sumOfTwoNumber(a, b) {
+//   return a + b;
+// }
+
+// sumOfTwoNumber(1, 2);
+// sumOfTwoNumber(10, 20);
+// sumOfTwoNumber(100, 200);
+
+// const sumOfNUmber = sumOfTwoNumber(5, 6);
+// const sumOfNUmber1 = sumOfTwoNumber(50, 60);
+
+// console.log(sumOfNUmber, sumOfNUmber1);
+
+function divideNumber(num1, num2) {
+  if (num1 / num2 === 100) {
+    console.log("first case");
+  } else if (num1 / num2 === 50) {
+    console.log("second case");
+  } else if (num1 / num2 === 20) {
+    console.log("third case");
+  } else {
+    console.log("Default case");
+  }
+}
+
+function divUsingSwitch(num1, num2) {
+  switch (num1 / num2) {
+    case 100:
+      console.log("first case");
+      break;
+    case 50:
+      console.log("second case");
+      break;
+    case 20:
+      console.log("third case");
+      break;
+    default:
+      console.log("Default case");
+  }
+}
+
+divUsingSwitch(100, 50);
+// divideNumber(100, 2);
+// divideNumber(100, 5);
+// divideNumber(100, 50);
