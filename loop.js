@@ -269,7 +269,7 @@ const products = [
 
 // loops
 
-const numbers = [3,2, 44, 22, 23]; //len -> 5 -> i= 0
+const numbers = [3, 2, 44, 22, 23]; //len -> 5 -> i= 0
 
 let sum = 0;
 
@@ -311,6 +311,12 @@ const found = numbers.find(function (number) {
 
 console.log(found);
 
-const productId3 = products.find(function(prod){
+const productId3 = products.find(function (prod) {
   return prod.id === 3;
-})
+});
+
+// 1. list the product price greater than 200$
+//2. Increase the price of all products by 10$
+//3. Sum of price of all products
+//4. Find the product with name MBJ Women's Solid Short Sleeve Boat Neck V
+//5. Find the product whose name has text Mens
