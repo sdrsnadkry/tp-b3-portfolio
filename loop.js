@@ -301,7 +301,7 @@ const newArr = numbers.filter(function (number) {
   return number < 10;
 });
 
-console.log(newArr);
+// console.log(newArr);
 
 //find
 
@@ -309,7 +309,7 @@ const found = numbers.find(function (number) {
   return number < 10;
 });
 
-console.log(found);
+// console.log(found);
 
 const productId3 = products.find(function (prod) {
   return prod.id === 3;
@@ -320,3 +320,14 @@ const productId3 = products.find(function (prod) {
 //3. Sum of price of all products
 //4. Find the product with name MBJ Women's Solid Short Sleeve Boat Neck V
 //5. Find the product whose name has text Mens
+
+
+
+// fruits array
+
+const fruitNames = ["Apple", "Banana", "Orange", "Mango"];
+
+//splice index. number to delete, data to entry on index value
+fruitNames.splice(1, 2, "COCO")
+
+console.log(fruitNames)
