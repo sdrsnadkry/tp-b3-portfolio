@@ -321,13 +321,59 @@ const productId3 = products.find(function (prod) {
 //4. Find the product with name MBJ Women's Solid Short Sleeve Boat Neck V
 //5. Find the product whose name has text Mens
 
-
-
 // fruits array
 
 const fruitNames = ["Apple", "Banana", "Orange", "Mango"];
 
 //splice index. number to delete, data to entry on index value
-fruitNames.splice(1, 2, "COCO")
+fruitNames.splice(1, 2, "COCO");
 
-console.log(fruitNames)
+console.log(fruitNames);
+
+const arr = [
+  {
+    id: 1,
+    name: "Apple",
+  },
+  {
+    id: 1,
+    name: "Ball",
+  },
+  {
+    id: 1,
+    name: "Cat",
+  },
+];
+
+const arr3 = [
+  {
+    id: 1,
+    name: "Apple 1",
+    apple: "Tasty",
+  },
+  {
+    id: 1,
+    cat: "Apple",
+    ball: "Ball Tasty",
+  },
+  {
+    id: 1,
+    name: "Cat 1",
+    apple: "Cat Tasty",
+  },
+];
+
+const output = [
+  {
+    id: 1,
+    name: "Apple",
+  },
+  {
+    id: 1,
+    name: "Ball",
+  },
+  {
+    id: 1,
+    name: "Cat",
+  },
+];
