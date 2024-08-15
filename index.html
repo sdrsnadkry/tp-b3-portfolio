@@ -4,216 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <title>Document</title>
 
 
 </head>
 
 <body>
 
+    <h1 id="text">Hello Worlds</h1>
 
-    <header class="container mx-auto flex items-center justify-between mt-16">
-        <img src="./assets/images/logo.png" alt="" class="w-[242px] h-[]79.45px">
+    <h2 class="name">Sujit Bhusal</h2>
+    <h2 class="name">Dikshya</h2>
 
-        <nav>
-            <ul class="flex items-center">
-                <li class="ml-3">
-                    <a href="">Home</a>
-                </li>
-                <li class="ml-3 px-4 py-2">
-                    <a href="">About Me</a>
-                </li>
-                <li class="ml-3 px-4 py-2">
-                    <a href="">Services</a>
-                </li>
-                <li class="ml-3 px-4 py-2">
-                    <a href="">Projects</a>
-                </li>
-                <li class="ml-3 px-4 py-2">
-                    <a href="">Testimonials</a>
-                </li>
-                <li class="ml-3 px-4 py-2">
-                    <a href="">Contact</a>
-                </li>
-                <li class="ml-3 px-4 py-2">
-                    <button class="bg-[#FD6F00] text-white px-[18px] py-[17px] rounded-md text-xl">Downlaod CV</button>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <img src="" alt="Image" id="image">
 
-    <section class="mt-28 container mx-auto flex items-center ">
-        <div class="mr-16 flex-1 ">
-            <p class="text-2xl	font-semibold	">Hi I am </p>
-            <p class="text-[#FD6F00] text-[32px] font-semibold mt-[6px]">Fawzi Sayed</p>
-            <h1 class="text-8xl font-bold		">UI & UX</h1>
-            <h1 class="text-8xl font-bold		ml-52">Designer</h1>
-
-            <p class="text-2xl mt-7 font-normal	  ">
-                Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra
-            </p>
+    <button id="button" onclick="changeImage()">Change Image</button>
 
 
-            <button>Hire Me </button>
-        </div>
-        <div class="flex flex-col items-center ml-16 flex-1">
-            <img src="assets/images/person.svg" alt="">
+    <div>
+        <input type="number" id="number1">
+        <input type="number" id="number2">
+        <button id="addButton">Add</button>
+        <span id="addResult"></span>
+    </div>
 
-            <div class="flex mt-7">
-                <img src="assets/icons/fb.svg" alt="" class="ml-6">
-                <img src="assets/icons/twitter.svg" alt="" class="ml-6">
-                <img src="assets/icons/insta.svg" alt="" class="ml-6">
-                <img src="assets/icons/linkedin.svg" alt="" class="ml-6">
-            </div>
-        </div>
-    </section>
+    <script src="dom.js"></script>
 
-
-
-    <section class="my-16">
-        <div class="testimonial-slider">
-
-            <div class="bg-[#F8F8F8] px-[48px] py-[55px] max-w-[1097px] mx-7">
-                <div class="flex items-center ">
-
-                    <img src="assets/images/test1.svg" alt="">
-                    <div class="ml-7 relative">
-
-                        <p class="text-xl leading-10">
-                            <span class="text-4xl text-orange-600">&quot;</span> Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim
-                            malesuada commodo ultrices. <span class="text-4xl text-orange-600">&quot;</span>
-                        </p>
-
-                        <p>Name</p>
-                        <p>CEO</p>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-[#F8F8F8] px-[48px] py-[55px] max-w-[1097px] mx-7">
-                <div class="flex items-center ">
-
-                    <img src="assets/images/test1.svg" alt="">
-                    <div class="ml-7 relative">
-
-                        <p class="text-xl leading-10">
-                            <span class="text-4xl text-orange-600">&quot;</span> Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim
-                            malesuada commodo ultrices. <span class="text-4xl text-orange-600">&quot;</span>
-                        </p>
-
-                        <p>Name</p>
-                        <p>CEO</p>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-[#F8F8F8] px-[48px] py-[55px] max-w-[1097px] mx-7">
-                <div class="flex items-center ">
-
-                    <img src="assets/images/test1.svg" alt="">
-                    <div class="ml-7 relative">
-
-                        <p class="text-xl leading-10">
-                            <span class="text-4xl text-orange-600">&quot;</span> Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim
-                            malesuada commodo ultrices. <span class="text-4xl text-orange-600">&quot;</span>
-                        </p>
-
-                        <p>Name</p>
-                        <p>CEO</p>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-[#F8F8F8] px-[48px] py-[55px] max-w-[1097px] mx-7">
-                <div class="flex items-center ">
-
-                    <img src="assets/images/test1.svg" alt="">
-                    <div class="ml-7 relative">
-
-                        <p class="text-xl leading-10">
-                            <span class="text-4xl text-orange-600">&quot;</span> Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim
-                            malesuada commodo ultrices. <span class="text-4xl text-orange-600">&quot;</span>
-                        </p>
-
-                        <p>Name</p>
-                        <p>CEO</p>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-[#F8F8F8] px-[48px] py-[55px] max-w-[1097px] mx-7">
-                <div class="flex items-center ">
-
-                    <img src="assets/images/test1.svg" alt="">
-                    <div class="ml-7 relative">
-
-                        <p class="text-xl leading-10">
-                            <span class="text-4xl text-orange-600">&quot;</span> Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim
-                            malesuada commodo ultrices. <span class="text-4xl text-orange-600">&quot;</span>
-                        </p>
-
-                        <p>Name</p>
-                        <p>CEO</p>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-[#F8F8F8] px-[48px] py-[55px] max-w-[1097px] mx-7">
-                <div class="flex items-center ">
-
-                    <img src="assets/images/test1.svg" alt="">
-                    <div class="ml-7 relative">
-
-                        <p class="text-xl leading-10">
-                            <span class="text-4xl text-orange-600">&quot;</span> Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim
-                            malesuada commodo ultrices. <span class="text-4xl text-orange-600">&quot;</span>
-                        </p>
-
-                        <p>Name</p>
-                        <p>CEO</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <section class="mb-52">
-
-        <div class="content">
-            <!-- range 1 -->
-            <div class="range">
-                <input type="range" id="range1" />
-            </div>
-            range 2
-        </div>
-    </section>
-    <!-- 
-
-
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script> -->
-
-    <!-- <script src="index.js"></script> -->
-    <!-- <script src="o&a.js"></script> -->
-    <!-- <script src="loop.js"></script> -->
-    <!-- <script src="destructuring.js"></script> -->
-    <script src="objectLoop.js"></script>
-
-    <!-- 
-    <script>
-        $(document).ready(function() {
-            $('.testimonial-slider').slick({
-                slidesToShow: 3,
-                centerMode: true,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 2000,
-                variableWidth: true
-
-            });
-        });
-    </script> -->
 </body>
+
 
 </html>

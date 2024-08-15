@@ -23,7 +23,7 @@ const entries = Object.entries(studentObj);
 function add(a,b) {
   console.log(a+ b)
 }
-add(1,2)
+// add(1,2)
 //function expression
 //anonymous function
 const sum = function (a, b) {
@@ -33,4 +33,11 @@ const sum = function (a, b) {
 const sumOfNum = (a,b) => {
   console.log(a+ b)
 }
-sumOfNum(10,20)
+// sumOfNum(10,20)
+
+
+function wrapperFunction(callback){
+  callback(1,2)
+}
+
+wrapperFunction(sumOfNum)
